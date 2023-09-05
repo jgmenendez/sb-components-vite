@@ -1,11 +1,28 @@
 {
-  "name": "my-storybook",
-  "private": true,
+  "name": "jgm-my-storybook-components",
+  "private": false,
   "version": "0.0.0",
+  "license": "MIT",
+  "typings": "dist/main.d.ts",
+  "main": "dist/main.js",
+  "repository": {
+    "url": "https://github.com/jgmenendez/sb-components-vite",
+    "type": "git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "type": "module",
   "scripts": {
+    "start": "storybook dev -p 6006",
     "dev": "npm run storybook",
-    "build": "tsc && vite build",
+    "build": "TODO: implementar",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
