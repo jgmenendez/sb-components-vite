@@ -9,7 +9,8 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_0abbd0ad22300a1"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -37,5 +38,7 @@
     "storybook": "^7.4.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "my-storybook@0.0.0"
 }
